@@ -4,4 +4,4 @@ start:
 	python3 manage.py runserver
 
 build:
-	docker build -t $IMAGE .
+	docker build -t ${IMAGE} .
