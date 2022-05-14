@@ -8,3 +8,6 @@ build:
 
 run:
 	docker run -p 8000:8000 ${IMAGE}
+
+open:
+	open http://localhost:8000
